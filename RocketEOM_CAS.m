@@ -70,12 +70,11 @@ plot(t_sim,F_sim);
 % Qdot = ((P*R*(izz - ixx))/iyy) + (1/iyy)*(del1 + del2)/2;
 % Rdot = ((P*Q*(ixx - iyy))/izz) + (1/izz)*(del3 + del4)/2;
 
+% u = [del1; del2; del3; del4]
+
 % uA = (del1 + del2 + del3 + del4)/4;
 % uE = (del1 + del2)/2;
 % uR = (del3 + del4)/2;
-
-% u = [del1; del2; del3; del4]
-
 
 % x = [P Q R];
 

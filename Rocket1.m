@@ -19,9 +19,6 @@ q2 = sin(theta0/2)*cos(psi0/2)*cos(phi0/2) - sin(psi0/2)*sin(phi0/2)*cos(theta0/
 q3 = sin(phi0/2)*cos(psi0/2)*cos(theta0/2) + sin(psi0/2)*sin(theta0/2)*cos(phi0/2); % Initial quaternion q3
 
 
-
-
-
 % eul  = [phi0 theta0 psi0];
 % qZYX = eul2quat(eul);
 % q    = [q0; q1; q2; q3];
